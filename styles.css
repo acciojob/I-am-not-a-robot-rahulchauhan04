@@ -1,3 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+img {
+  margin: 10px;
+  border: 5px solid #555;
+  width: 10%;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.selected {
+  border: 5px solid rgb(0, 195, 255);
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#para {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: red;
+}
 .img1 {
   content: url("https://picsum.photos/id/237/200/300");
 }
